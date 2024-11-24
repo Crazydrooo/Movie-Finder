@@ -1,0 +1,55 @@
+.container{
+    display: grid;
+    grid-template-columns:repeat(5 ,1fr) ;
+    gap: 20px;
+    justify-content: center;
+    
+    margin: 25px;
+    width: auto;
+   
+    
+}
+
+.sub_container{
+  color:white;
+  border: 2px solid white;
+
+  
+  text-align: center;
+padding-top: 2rem;
+ 
+}
+
+.sub_container img{
+    width: 100%;        /* Make sure the image takes up the entire width of the container */
+    height: 400px;      /* Set a fixed height for all images */
+    object-fit:fill;  
+    /* object-fit: cover;Crop the image to fit the container */
+    
+    border-radius: 5px; 
+ 
+  
+}
+
+.sub_container h4{
+    margin-top: 15px;
+}
+
+.info_container{
+    color: white;
+    padding-bottom: 2rem;
+    
+}
+
+
+@media (max-width: 768px) {
+    .container {
+      grid-template-columns: repeat(2, 1fr); /* 2 items per row on small screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      grid-template-columns: 1fr; /* 1 item per row on very small screens */
+    }
+  }

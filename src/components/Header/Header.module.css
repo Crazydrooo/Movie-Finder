@@ -1,0 +1,11 @@
+.container{
+    background: linear-gradient(to left, black, #333333, #666666, #999999, #cccccc);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    font-family:'Times New Roman', Times, serif;
+}

@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    /* background-color: red; */
+    
+}
+
+.input{
+    padding: 5px;
+    width: 30rem;
+    margin: 1rem;
+   font-weight: bolder;
+   border-radius: 10px;
+
+}
+
+.input_year{
+    padding: 3px;
+    margin: 0.5rem;
+    font-weight: bolder;
+   border-radius: 10px;
+}
+
+.type{
+    padding: 3px;
+    margin: 0.5rem;
+    font-weight: bolder;
+   border-radius: 10px;
+}
+
+.btn{
+    width: 4rem;
+    height: 1.7rem;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .input{width: 15rem;}
+}
+
+
+
+@media (max-width: 480px) {
+    .input{width: 10rem;}
+}

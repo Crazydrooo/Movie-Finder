@@ -1,0 +1,10 @@
+.container{
+    /* position: relative; */
+    top: 200px;
+    background-color: black;
+   height: 75vh;
+   padding-top: 15%;
+    color: white;
+    text-align: center;
+  border-bottom: 2px solid white ;
+}
